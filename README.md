@@ -3,13 +3,11 @@ About r-assertive.base
 
 Home: https://bitbucket.org/richierocks/assertive.base
 
-Package license: GPL (>= 3)
+Package license: GPL-3.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-assertive.base-feedstock/blob/master/LICENSE.txt)
 
 Summary: A minimal set of predicates and assertions used by the assertive package.  This is mainly for use by other package developers who want to include run-time testing features in their own packages.  End-users will usually want to use assertive directly.
-
-
 
 Current build status
 ====================
@@ -116,12 +114,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@dbast](https://github.com/dbast/)
-* [@jdblischak](https://github.com/jdblischak/)
 * [@jenzopr](https://github.com/jenzopr/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
