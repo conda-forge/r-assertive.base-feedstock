@@ -1,4 +1,4 @@
-{% set version = "0.0-8" %}
+{% set version = "0.0-9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/assertive.base_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/assertive.base/assertive.base_{{ version }}.tar.gz
-  sha256: 093f546c7907b689dc27bb8c8bcb4ec379d11b5991b398d15519eb85f2ee235f
+  sha256: 4bf0910b0eaa507e0e11c3c43c316b524500c548d307eb045d6f89047e6ba01e
 
 build:
   merge_build_host: true  # [win]
